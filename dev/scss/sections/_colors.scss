@@ -4,6 +4,12 @@
     text-align: center;
 }
 
+#nav-links{
+    hover{
+        color:#FDB913;
+    }
+}
+
 .textcontainers{
     padding-top: 45vh;
 }
@@ -18,12 +24,4 @@
 
 #bluesection{
     background-color:$blue;
-}
-
-#violetsection{
-    background-color: $violet;
-}
-
-#yellowsection{
-    background-color: $yellow;
 }

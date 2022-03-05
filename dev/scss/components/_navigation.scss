@@ -7,26 +7,6 @@
         margin-bottom: 20px;
         line-height: 2rem;
 
-        #graylink:hover,
-        #graylink:active
-        {   color: $gray;}
-
-        #redlink:hover,
-        #redlink:active
-        {   color: $red;}
-
-        #bluelink:hover,
-        #bluelink:active
-        {   color: $blue;}
-
-        #violetlink:hover,
-        #violetlink:active
-        {   color: $violet;}
-
-        #yellowlink:hover,
-        #yellowlink:active
-        {   color: $yellow;}
-
         @include lg {
             align-items: center;
             display: flex; 

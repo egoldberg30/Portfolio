@@ -418,26 +418,6 @@ textarea {
   margin-bottom: 20px;
   line-height: 2rem;
 }
-#nav-container li #graylink:hover,
-#nav-container li #graylink:active {
-  color: #c0c0c0;
-}
-#nav-container li #redlink:hover,
-#nav-container li #redlink:active {
-  color: #FF5B5B;
-}
-#nav-container li #bluelink:hover,
-#nav-container li #bluelink:active {
-  color: #00ACE5;
-}
-#nav-container li #violetlink:hover,
-#nav-container li #violetlink:active {
-  color: #5C2D91;
-}
-#nav-container li #yellowlink:hover,
-#nav-container li #yellowlink:active {
-  color: #FFD200;
-}
 @media (min-width: 1024px) {
   #nav-container li {
     align-items: center;
@@ -563,6 +543,10 @@ header #header-contents #nav-container ul {
   text-align: center;
 }
 
+#nav-links hover {
+  color: #FDB913;
+}
+
 .textcontainers {
   padding-top: 45vh;
 }
@@ -577,12 +561,4 @@ header #header-contents #nav-container ul {
 
 #bluesection {
   background-color: #00ACE5;
-}
-
-#violetsection {
-  background-color: #5C2D91;
-}
-
-#yellowsection {
-  background-color: #FFD200;
 }

@@ -82,22 +82,6 @@
       "oAP" : "\/dev\/content\/red.html",
       "oF" : 0
     },
-    "\/dev\/content\/violet.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/violet.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/yellow.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/yellow.html",
-      "oF" : 0
-    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -127,8 +111,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/burgerAnimation.js" : {
       "bF" : 0,
