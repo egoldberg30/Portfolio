@@ -415,8 +415,12 @@ textarea {
     Navigation
 ============= */
 #nav-container li {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   line-height: 2rem;
+}
+#nav-container li #graylink:hover,
+#nav-container li #graylink:active {
+  color: yellow;
 }
 @media (min-width: 1024px) {
   #nav-container li {
@@ -541,10 +545,6 @@ header #header-contents #nav-container ul {
   width: 100vw;
   height: 100vh;
   text-align: center;
-}
-
-#nav-links hover {
-  color: #FDB913;
 }
 
 .textcontainers {

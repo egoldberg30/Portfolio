@@ -4,8 +4,11 @@
 #nav-container{
 
    li{
-        margin-bottom: 20px;
+        margin-bottom: 18px;
         line-height: 2rem;
+
+        #graylink:hover,
+        #graylink:active {color: yellow;}
 
         @include lg {
             align-items: center;
@@ -23,3 +26,50 @@
         }
     }
 }
+
+
+
+// /* =============
+//     Navigation
+// ============= */
+// #nav-container{
+
+//     li{
+//          margin-bottom: 20px;
+//          line-height: 2rem;
+ 
+//          .nav-links:hover,
+//          .nav-links:active{color: $gold;}
+ 
+//          #redlink:hover,
+//          #redlink:active
+//          {   color: $red;}
+ 
+//          #bluelink:hover,
+//          #bluelink:active
+//          {   color: $blue;}
+ 
+//          #violetlink:hover,
+//          #violetlink:active
+//          {   color: $violet;}
+ 
+//          #yellowlink:hover,
+//          #yellowlink:active
+//          {   color: $yellow;}
+ 
+//          @include lg {
+//              align-items: center;
+//              display: flex; 
+//              margin-bottom: 0px;
+//              line-height: 1rem;
+//          }
+ 
+//          a{
+//              text-align: center;
+//              font-family: 'Montserrat', sans-serif;
+//              font-weight: medium;
+//              font-size: rem-calc(16);
+//              color: black;
+//          }
+//      }
+//  }
