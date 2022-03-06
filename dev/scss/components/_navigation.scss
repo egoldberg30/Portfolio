@@ -4,11 +4,11 @@
 #nav-container{
 
    li{
-        margin-bottom: 18px;
+        margin-bottom: 20px;
         line-height: 2rem;
 
         #graylink:hover,
-        #graylink:active {color: yellow;}
+        #graylink:active{color: yellow;}
 
         @include lg {
             align-items: center;
@@ -19,7 +19,8 @@
 
         a{
             text-align: center;
-            font-family: 'Montserrat', sans-serif;
+            // font-family: 'Montserrat', sans-serif;
+            font-family: "Helvetica Neue";
             font-weight: medium;
             font-size: rem-calc(16);
             color: black;

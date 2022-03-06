@@ -3,13 +3,14 @@
 ============= */
 
 body{ 
-    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
+    font-family: "Helvetica Neue",
 
     h1{
         margin: 0;
         padding: 10;
         font-size: 2rem;
-        color: white;
+        color: white !important;
         font-weight: bold;
     }
 

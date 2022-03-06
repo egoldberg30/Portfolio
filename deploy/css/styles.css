@@ -373,14 +373,12 @@ a {
     Typography
 ============= */
 body {
-  font-family: "Montserrat", sans-serif;
-}
-body h1 {
-  margin: 0;
-  padding: 10;
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
+  font-family: "Helvetica Neue", h1;
+  font-family-margin: 0;
+  font-family-padding: 10;
+  font-family-font-size: 2rem;
+  font-family-color: white !important;
+  font-family-font-weight: bold;
 }
 body h2 {
   margin: 0;
@@ -415,7 +413,7 @@ textarea {
     Navigation
 ============= */
 #nav-container li {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   line-height: 2rem;
 }
 #nav-container li #graylink:hover,
@@ -432,7 +430,7 @@ textarea {
 }
 #nav-container li a {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Helvetica Neue";
   font-weight: medium;
   font-size: 1rem;
   color: black;
