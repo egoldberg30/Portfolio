@@ -553,18 +553,27 @@ header #header-contents #nav-container ul {
   background-color: #c0c0c0;
 }
 
-ul {
+#filters {
+  height: 100vh;
+}
+#filters ul {
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   justify-content: space-between;
   width: 100%;
 }
-ul li {
+#filters ul li {
   cursor: pointer;
   height: 45px;
+  margin-bottom: 5px;
   width: 225px;
 }
-
-#filter-options {
+#filters ul li #filter-button {
+  display: flex;
+  flex-direction: row;
+}
+#filters #filter-options {
   display: flex;
 }
