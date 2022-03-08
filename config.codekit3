@@ -330,7 +330,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_colors.scss" : {
+    "\/dev\/scss\/sections\/_portfolio.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -339,7 +339,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_colors.css",
+      "oAP" : "\/dev\/scss\/sections\/_portfolio.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

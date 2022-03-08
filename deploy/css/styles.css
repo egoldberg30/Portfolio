@@ -391,6 +391,10 @@ body h2 {
 /* =============
     Buttons
 ============= */
+button {
+  border: none;
+}
+
 /* =============
     Forms
 ============= */
@@ -545,18 +549,22 @@ header #header-contents #nav-container ul {
   text-align: center;
 }
 
-.textcontainers {
-  padding-top: 45vh;
-}
-
 #portfolio {
   background-color: #c0c0c0;
 }
 
-#resume {
-  background-color: #FF5B5B;
+ul {
+  background-color: #fff;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+}
+ul li {
+  cursor: pointer;
+  height: 45px;
+  width: 225px;
 }
 
-#aboutme {
-  background-color: #00ACE5;
+#filter-options {
+  display: flex;
 }
