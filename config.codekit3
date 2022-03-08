@@ -58,28 +58,28 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/blue.kit" : {
+    "\/dev\/content\/aboutme.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/blue.html",
+      "oAP" : "\/dev\/content\/aboutme.html",
       "oF" : 0
     },
-    "\/dev\/content\/gray.kit" : {
+    "\/dev\/content\/portfolio.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/gray.html",
+      "oAP" : "\/dev\/content\/portfolio.html",
       "oF" : 0
     },
-    "\/dev\/content\/red.kit" : {
+    "\/dev\/content\/resume.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/red.html",
+      "oAP" : "\/dev\/content\/resume.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
