@@ -17,6 +17,14 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/deploy\/aboutme.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/aboutme.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -58,13 +66,21 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/aboutme.kit" : {
+    "\/deploy\/resume.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/resume.html",
+      "oF" : 0
+    },
+    "\/dev\/aboutme.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/aboutme.html",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/deploy\/aboutme.html",
+      "oF" : 2
     },
     "\/dev\/content\/portfolio.kit" : {
       "cB" : 0,
@@ -73,14 +89,6 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/portfolio.html",
       "oF" : 0
-    },
-    "\/dev\/content\/resume.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/resume.html",
-      "oF" : 1
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -179,6 +187,14 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/resume.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/resume.html",
+      "oF" : 2
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,

@@ -453,6 +453,7 @@ header {
   display: grid;
   grid-template-areas: ". headercontents .";
   grid-template-columns: auto 100% auto;
+  top: 0;
 }
 header #header-contents {
   grid-area: headercontents;
@@ -555,6 +556,8 @@ header #header-contents #nav-container ul {
 
 #filters {
   height: 100vh;
+  left: 0;
+  top: 0;
 }
 #filters ul {
   background-color: #fff;
@@ -573,7 +576,5 @@ header #header-contents #nav-container ul {
 #filters ul li #filter-button {
   display: flex;
   flex-direction: row;
-}
-#filters #filter-options {
-  display: flex;
+  text-align: left;
 }

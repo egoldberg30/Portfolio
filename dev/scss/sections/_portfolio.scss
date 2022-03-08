@@ -39,9 +39,10 @@
 
 
 #filters{
-
     height: 100vh;
-    
+    // position: absolute;
+    left: 0;
+    top: 0;
 
     ul {
         background-color: $white;
@@ -60,16 +61,14 @@
             #filter-button{
                 display: flex;
                 flex-direction: row;
+                text-align: left;
             }
         }
     }
     
-    
-    #filter-options{
-        display: flex;
-    }
-    
-
+    // #filter-options{
+    //     display: flex;
+    // }
 }
 
 
