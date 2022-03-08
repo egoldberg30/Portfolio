@@ -64,7 +64,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/aboutme.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/portfolio.kit" : {
       "cB" : 0,
@@ -80,7 +80,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/resume.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
