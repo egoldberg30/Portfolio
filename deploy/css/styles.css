@@ -557,7 +557,7 @@ header #header-contents #nav-container ul {
 #filters {
   height: 100vh;
   left: 0;
-  top: 0;
+  top: 70;
 }
 #filters ul {
   background-color: #fff;
