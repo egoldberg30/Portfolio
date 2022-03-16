@@ -37,6 +37,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/EitanGoldberg_Resume.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/EitanGoldberg_Resume.pdf",
+      "oF" : 0
+    },
     "\/deploy\/img\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -65,14 +73,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/deploy\/resume.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/resume.html",
-      "oF" : 0
     },
     "\/dev\/aboutme.kit" : {
       "cB" : 0,
