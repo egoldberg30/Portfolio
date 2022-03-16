@@ -458,21 +458,15 @@ header {
 header #header-contents {
   grid-area: headercontents;
   display: grid;
-  grid-template-areas: "logo burger";
-  grid-template-columns: 165px auto;
+  grid-template-areas: "logo . burger";
+  grid-template-columns: 165px auto 25vw;
 }
 @media (min-width: 1024px) {
   header #header-contents {
+    grid-area: headercontents;
     display: grid;
-    grid-template-areas: "logo nav";
-    grid-template-columns: 165px auto;
-  }
-}
-@media (min-width: 1200px) {
-  header #header-contents {
-    display: grid;
-    grid-template-areas: "logo nav";
-    grid-template-columns: 165px auto;
+    grid-template-areas: "logo . nav";
+    grid-template-columns: 165px auto 35vw;
   }
 }
 header #header-contents #logo-container {
@@ -501,21 +495,21 @@ header #header-contents #burger-container #hamburger_icon {
   padding-right: 20px;
 }
 header #header-contents #nav-container {
-  width: 40vw;
-  height: 100vh;
+  display: none !important;
+  grid-area: nav;
+  height: 100%;
   background-color: white;
-  position: absolute;
   right: 0;
-  opacity: 0;
 }
 @media (min-width: 768px) {
   header #header-contents #nav-container {
-    width: 30vw;
+    grid-area: nav;
+    height: 100%;
+    width: 100%;
   }
 }
 @media (min-width: 1024px) {
   header #header-contents #nav-container {
-    grid-area: nav;
     display: block !important;
     height: 100%;
     width: 100%;
@@ -529,6 +523,7 @@ header #header-contents #nav-container ul {
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding-right: 25px;
 }
 @media (min-width: 1024px) {
   header #header-contents #nav-container ul {
@@ -536,8 +531,6 @@ header #header-contents #nav-container ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 5vw;
-    padding-right: 20px;
   }
 }
 
