@@ -7,13 +7,13 @@
         grid-area: aboutmecontent;
         padding-top: 170px;
 
-        @include md {
+        @include md{
             display: grid;
             grid-template-areas: "headshot type";
             grid-template-columns: 50% 50%;
         }
 
-        @include xl {
+        @include xl{
             padding-left: 125px;
             padding-right: 125px;
         }
@@ -21,7 +21,7 @@
         #headshot{
             width: 100%;
 
-            @include md {
+            @include md{
                 grid-area: headshot;
             }
         }
@@ -31,7 +31,7 @@
             padding-bottom: 50px;
             // outline: solid 1px red;
 
-            @include md {
+            @include md{
                 grid-area: type;
                 padding-top: 0px;
                 padding-left: 50px;
@@ -45,7 +45,7 @@
                 justify-content: space-evenly;
                 align-items: center;
     
-                @include xl {
+                @include xl{
                     width: 300px;
                 }
     

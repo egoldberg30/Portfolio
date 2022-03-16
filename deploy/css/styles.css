@@ -502,7 +502,6 @@ header #header-contents #nav-container {
   display: grid;
   grid-template-areas: "links icons";
   grid-template-columns: 50% 50%;
-  outline: 1px solid blue;
 }
 @media (min-width: 768px) {
   header #header-contents #nav-container {
@@ -513,7 +512,7 @@ header #header-contents #nav-container {
 }
 @media (min-width: 1024px) {
   header #header-contents #nav-container {
-    display: block !important;
+    display: inline-flex !important;
     height: 100%;
     width: 100%;
     background-color: transparent;
@@ -525,8 +524,8 @@ header #header-contents #nav-container #navlinks {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
   padding-right: 25px;
-  outline: 1px solid red;
 }
 @media (min-width: 1024px) {
   header #header-contents #nav-container #navlinks {
@@ -538,21 +537,21 @@ header #header-contents #nav-container #navlinks {
 }
 header #header-contents #nav-container #social-icons {
   grid-area: icons;
-  outline: 1px solid red;
+  height: 100%;
+  width: 300px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  height: 100%;
 }
 header #header-contents #nav-container #social-icons .linkedin-icon {
-  height: 30px;
+  height: 23px;
 }
 header #header-contents #nav-container #social-icons .email-icon {
-  height: 30px;
+  height: 23px;
 }
 header #header-contents #nav-container #social-icons .instagram-icon {
-  height: 30px;
+  height: 23px;
 }
 
 /* =============
@@ -561,6 +560,10 @@ header #header-contents #nav-container #social-icons .instagram-icon {
 #portfolio {
   width: 100vw;
   height: 100vh;
+}
+
+.nav-links:hover, .nav-links:active {
+  color: #FDB913;
 }
 
 #aboutme {

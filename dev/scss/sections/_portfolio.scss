@@ -10,9 +10,17 @@
 //     color: #FDB913;
 //   }
   
+
   
 // .nav-links{
 //     hover{
 //         color:#FDB913;
 //     }
 // }
+
+
+
+.nav-links:hover, .nav-links:active {
+    
+    color: #FDB913;
+}
