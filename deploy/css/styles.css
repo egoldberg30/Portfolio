@@ -466,7 +466,7 @@ header #header-contents {
     grid-area: headercontents;
     display: grid;
     grid-template-areas: "logo . nav";
-    grid-template-columns: 165px auto 35vw;
+    grid-template-columns: 165px auto 60vw;
   }
 }
 header #header-contents #logo-container {
@@ -474,9 +474,6 @@ header #header-contents #logo-container {
   padding-left: 75px;
   padding-top: 19px;
   padding-right: 0px;
-}
-header #header-contents #social-icons {
-  height: 40px;
 }
 header #header-contents #burger-container {
   grid-area: burger;
@@ -501,8 +498,11 @@ header #header-contents #nav-container {
   display: none !important;
   grid-area: nav;
   height: 100%;
-  background-color: white;
   right: 0;
+  display: grid;
+  grid-template-areas: "links icons";
+  grid-template-columns: 50% 50%;
+  outline: 1px solid blue;
 }
 @media (min-width: 768px) {
   header #header-contents #nav-container {
@@ -517,24 +517,42 @@ header #header-contents #nav-container {
     height: 100%;
     width: 100%;
     background-color: transparent;
-    opacity: 1;
   }
 }
-header #header-contents #nav-container ul {
+header #header-contents #nav-container #navlinks {
+  grid-area: links;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
   padding-right: 25px;
+  outline: 1px solid red;
 }
 @media (min-width: 1024px) {
-  header #header-contents #nav-container ul {
+  header #header-contents #nav-container #navlinks {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
+}
+header #header-contents #nav-container #social-icons {
+  grid-area: icons;
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+header #header-contents #nav-container #social-icons .linkedin-icon {
+  height: 30px;
+}
+header #header-contents #nav-container #social-icons .email-icon {
+  height: 30px;
+}
+header #header-contents #nav-container #social-icons .instagram-icon {
+  height: 30px;
 }
 
 /* =============
