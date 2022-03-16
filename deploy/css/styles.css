@@ -543,10 +543,6 @@ header #header-contents #nav-container ul {
   text-align: center;
 }
 
-#portfolio {
-  background-color: #c0c0c0;
-}
-
 #filters {
   height: 100vh;
   left: 0;
@@ -568,4 +564,33 @@ header #header-contents #nav-container ul {
 }
 #filters ul li .filter-button {
   display: flex;
+}
+
+#aboutme {
+  display: grid;
+  grid-template-areas: ". aboutmecontent .";
+  grid-template-columns: auto 75vw auto;
+  top: 70p;
+}
+#aboutme #aboutme_content {
+  grid-area: aboutmecontent;
+}
+@media (min-width: 768px) {
+  #aboutme #aboutme_content {
+    display: grid;
+    grid-template-areas: "headshot type";
+    grid-template-columns: 50% 50%;
+  }
+}
+#aboutme #aboutme_content #headshot {
+  grid-area: headshot;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#aboutme #aboutme_content p {
+  grid-area: type;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

@@ -201,14 +201,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/resume.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/resume.html",
-      "oF" : 2
-    },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -382,9 +374,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/aboutme.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
