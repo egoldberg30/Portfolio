@@ -570,10 +570,10 @@ header #header-contents #nav-container ul {
   display: grid;
   grid-template-areas: ". aboutmecontent .";
   grid-template-columns: auto 75vw auto;
-  top: 70p;
 }
 #aboutme #aboutme_content {
   grid-area: aboutmecontent;
+  padding-top: 170px;
 }
 @media (min-width: 768px) {
   #aboutme #aboutme_content {
@@ -582,15 +582,43 @@ header #header-contents #nav-container ul {
     grid-template-columns: 50% 50%;
   }
 }
-#aboutme #aboutme_content #headshot {
-  grid-area: headshot;
-  padding-left: 50px;
-  padding-right: 50px;
+@media (min-width: 1200px) {
+  #aboutme #aboutme_content {
+    padding-left: 125px;
+    padding-right: 125px;
+  }
 }
-#aboutme #aboutme_content p {
-  grid-area: type;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
+#aboutme #aboutme_content #headshot {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #aboutme #aboutme_content #headshot {
+    grid-area: headshot;
+  }
+}
+#aboutme #aboutme_content #caption {
+  padding-top: 25px;
   padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+  #aboutme #aboutme_content #caption {
+    grid-area: type;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+}
+#aboutme #aboutme_content #social-media-icons {
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-evenly;
+}
+#aboutme #aboutme_content #social-media-icons .linkedin-icon {
+  width: 40px;
+}
+#aboutme #aboutme_content #social-media-icons .email-icon {
+  width: 40px;
+}
+#aboutme #aboutme_content #social-media-icons .instagram-icon {
+  width: 40px;
 }
