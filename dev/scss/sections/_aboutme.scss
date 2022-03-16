@@ -14,8 +14,8 @@
         }
 
         @include xl {
-            padding-left:125px;
-            padding-right:125px;
+            padding-left: 125px;
+            padding-right: 125px;
         }
 
         #headshot{
@@ -29,8 +29,7 @@
         #caption{
             padding-top: 25px;
             padding-bottom: 50px;
-            // justify-content: center;
-            outline: solid 1px red;
+            // outline: solid 1px red;
 
             @include md {
                 grid-area: type;
@@ -38,29 +37,29 @@
                 padding-left: 50px;
                 padding-right: 0px;
             }
-        }
 
-        #social-media-icons{
-            outline: solid 1px red;
-            display: flex;
-            padding-top: 25px;
-            justify-content: space-evenly;
-            align-items: center;
-
-            @include xl {
-                width: 300px;
-            }
-
-            .linkedin-icon{
-                width: 40px;
-            }
-
-            .email-icon{
-                width: 40px;
-            }
-
-            .instagram-icon{
-                width: 40px;
+            #social-media-icons{
+                // outline: solid 1px red;
+                display: flex;
+                padding-top: 25px;
+                justify-content: space-evenly;
+                align-items: center;
+    
+                @include xl {
+                    width: 300px;
+                }
+    
+                .linkedin-icon{
+                    width: 40px;
+                }
+    
+                .email-icon{
+                    width: 40px;
+                }
+    
+                .instagram-icon{
+                    width: 40px;
+                }
             }
         }
     }
